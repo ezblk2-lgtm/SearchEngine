@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "searchEngineApp/nlohmann_json",
+		"source" : "searchEngineApp/nlohmann_json"
+	}
+}
