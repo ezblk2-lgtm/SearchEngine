@@ -26,13 +26,18 @@ std::vector<std::vector<RelativeIndex>> SearchServer::search (const std::vector<
             if (uniqWords.find(word) == uniqWords.end())
             {
                 const auto& dataWord = _index.GetWordCount(word);
-                if (dataWord.empty()) continue;
                 size_t totalCount = 0;
-
-                for (const auto& value : dataWord)
+                if (!dataWord.empty())
                 {
-                    totalCount += value.count;
-                    foundWord = true;
+                    for (const auto& value : dataWord)
+                    {
+                        totalCount += value.count;
+                        foundWord = true;
+                    }
+                }
+                else 
+                {
+                    uniqWords[word] = 0;
                 }
 
                 uniqWords[word] = totalCount;

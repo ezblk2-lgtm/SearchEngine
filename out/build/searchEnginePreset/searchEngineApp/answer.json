@@ -6,14 +6,6 @@
                 {
                     "docid": 0,
                     "rank": 1.0
-                },
-                {
-                    "docid": 2,
-                    "rank": 0.5
-                },
-                {
-                    "docid": 3,
-                    "rank": 0.5
                 }
             ]
         },
@@ -25,31 +17,13 @@
                     "rank": 1.0
                 },
                 {
-                    "docid": 0,
-                    "rank": 0.3333333432674408
-                },
-                {
-                    "docid": 3,
-                    "rank": 0.3333333432674408
+                    "docid": 1,
+                    "rank": 0.8333333134651184
                 }
             ]
         },
         "request003": {
-            "result": true,
-            "relevance": [
-                {
-                    "docid": 1,
-                    "rank": 1.0
-                },
-                {
-                    "docid": 0,
-                    "rank": 0.5
-                },
-                {
-                    "docid": 2,
-                    "rank": 0.5
-                }
-            ]
+            "result": false
         },
         "request004": {
             "result": false
