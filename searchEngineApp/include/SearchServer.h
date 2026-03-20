@@ -5,6 +5,7 @@
 #include <map>
 #include <algorithm>
 #include <set>
+#include <unordered_set>
 #include "InvertedIndex.h"
 
 struct  RelativeIndex
