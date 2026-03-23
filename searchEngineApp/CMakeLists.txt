@@ -10,7 +10,7 @@ add_subdirectory(nlohmann_json)
 add_executable(searchEngine 
         src/main.cpp
         src/InvertedIndex.cpp
-        src/ConverterJson.cpp
+        src/ConverterJSON.cpp
         src/SearchServer.cpp)
 
 target_link_libraries(searchEngine PRIVATE nlohmann_json::nlohmann_json)
