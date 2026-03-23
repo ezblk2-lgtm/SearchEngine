@@ -2,6 +2,8 @@
 
 void InvertedIndex::UpdateDocumentBase(std::vector<std::string> inputDocs)
     {
+        freqDictionary.clear();
+        
         docs = std::move(inputDocs);
         std::vector<std::thread> threads;
         std::mutex freqDictionaryMutex;
