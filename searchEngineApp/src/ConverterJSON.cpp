@@ -78,8 +78,23 @@ int ConverterJSON::GetResponsesLimit()
 
         auto config = configInfo["config"];
 
+        if (!config.contains("max_responses"))
+        {
+            return 5;
+        }
+
+        if (!config["max_responses"].is_number())
+        {
+            return 5;
+        }
+
         int result = config["max_responses"];
         fileConfig.close();
+
+        if (result <= 0)
+        {
+            return 5;
+        }
 
         return result;
     }
