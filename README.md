@@ -46,7 +46,7 @@ Google test (включен в репозиторий)
 `answers.json` - результаты поиска (генерируется и очищается от предыдущего ответа автоматически).  
 
 
-## en English version
+## EN English version
 
 Search engine for keyword queries using nlohmann/json library.
 
