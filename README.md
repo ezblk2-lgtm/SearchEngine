@@ -12,7 +12,7 @@
 - **Поиск по ключевым словам**: Поиск документов, содержащих все слова из запроса.
 - **Ранжирование результатов**: Сортировка найденных документов по релевантности.
 - **Многопоточная индексация**: Параллельная обработка документов при построении индекса с использованием `std::thread`.
-- **Современный C++**: Использование лямбда-выражений, `auto`, range-based for и других возможностей C++17.
+- **C++**: Использование лямбда-выражений, `auto`, range-based for и других возможностей C++17.
 
 ### Технический стек
 - **Язык**: C++17
@@ -56,7 +56,7 @@ This repository contains a C++17 search engine implementation. The nlohmann/json
 - **Keyword search**: Finds documents containing all words from the query.
 - **Relevance ranking**: Sorts results by relevance score.
 - **Multithreaded indexing**: Parallel document processing during index construction using `std::thread`.
-- **Modern C++**: Utilizes lambda expressions, `auto`, range-based for loops, and other C++17 features.
+- **C++**: Utilizes lambda expressions, `auto`, range-based for loops, and other C++17 features.
 
 ### Tech Stack
 - **Language**: C++17
