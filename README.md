@@ -1,8 +1,8 @@
 # Поисковый движок / Search Engine
 
-[русская версия ниже/English version below]
+[Русская версия ниже/English version below]
 
-## 🇷🇺 Русская версия
+## ru Русская версия
 
 Поисковый движок по запросам с использованием библиотеки nlohmann/json.
 
@@ -46,7 +46,7 @@ Google test (включен в репозиторий)
 `answers.json` - результаты поиска (генерируется и очищается от предыдущего ответа автоматически).  
 
 
-## EN English version
+## en English version
 
 Search engine for keyword queries using nlohmann/json library.
 
