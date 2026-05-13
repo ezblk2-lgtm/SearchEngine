@@ -6,16 +6,16 @@
 
 Поисковый движок по запросам с использованием библиотеки nlohmann/json.
 
-Репозиторий содержит код поискового движка на С++17. Для работы с JSON-файлами и данными используется библиотека nlohmann/json.
+Репозиторий содержит код поискового движка на С++20. Для работы с JSON-файлами и данными используется библиотека nlohmann/json.
 
 ### Возможности
 - **Поиск по ключевым словам**: Поиск документов, содержащих все слова из запроса.
 - **Ранжирование результатов**: Сортировка найденных документов по релевантности.
 - **Многопоточная индексация**: Параллельная обработка документов при построении индекса с использованием `std::thread`.
-- **C++**: Использование лямбда-выражений, `auto`, range-based for и других возможностей C++17.
+- **C++**: Использование лямбда-выражений, `auto`, range-based for и других возможностей C++20.
 
 ### Технический стек
-- **Язык**: C++17
+- **Язык**: C++20
 - **Сборка**: CMake (кроссплатформенная сборка для Windows/Linux/Mac)
 - **Тестирование**: Google Test
 - **JSON**: nlohmann/json (включена в репозиторий, можно обновить вручную)
@@ -35,7 +35,7 @@
 В файле `requests.json` - укажите поисковые запросы.
 
 ### Требования
-Компилятор c поддержкой C++17  
+Компилятор c поддержкой C++20  
 Cmake 3.10  
 Google test (включен в репозиторий)  
 Библиотека Nlohmann/json (включена в репозиторий, можно обновить вручную)  
@@ -50,16 +50,16 @@ Google test (включен в репозиторий)
 
 Search engine for keyword queries using nlohmann/json library.
 
-This repository contains a C++17 search engine implementation. The nlohmann/json library is used for JSON file handling and data processing.
+This repository contains a C++20 search engine implementation. The nlohmann/json library is used for JSON file handling and data processing.
 
 ### Features
 - **Keyword search**: Finds documents containing all words from the query.
 - **Relevance ranking**: Sorts results by relevance score.
 - **Multithreaded indexing**: Parallel document processing during index construction using `std::thread`.
-- **C++**: Utilizes lambda expressions, `auto`, range-based for loops, and other C++17 features.
+- **C++**: Utilizes lambda expressions, `auto`, range-based for loops, and other C++20 features.
 
 ### Tech Stack
-- **Language**: C++17
+- **Language**: C++20
 - **Build System**: CMake (cross-platform build for Windows/Linux/Mac)
 - **Testing**: Google Test
 - **JSON**: nlohmann/json (bundled in repository, can be updated manually)
@@ -79,7 +79,7 @@ In `config.json` — add paths to the files for searching.
 In `requests.json` — specify search queries.
 
 ### Requirements
-- Compiler with C++17 support
+- Compiler with C++20 support
 - CMake 3.10
 - Google Test (bundled in the repository)
 - Nlohmann/json library (bundled in the repository, can be updated manually)
